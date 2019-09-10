@@ -45,8 +45,8 @@ int main()
     getline(cin,str);
     while(n--)
     {
-        // have to take string as a get line
-        // so empty string won't miss
+         // have to take string as a get line
+         // so empty string won't miss
         getline(cin,str);
         if(ParenthesesBalance(str)){
             cout<<"Yes"<<endl;

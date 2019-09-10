@@ -38,15 +38,15 @@ bool ParenthesesBalance(string str)
 
 int main()
 {
-	string str;
+    string str;
     int n;
-	cin >> n;
-	// dummy gets for avoiding enter after integer
+    cin >> n;
+    // dummy gets for avoiding enter after integer
     getline(cin,str);
     while(n--)
     {
         // have to take string as a get line
-		// so empty string won't miss
+        // so empty string won't miss
         getline(cin,str);
         if(ParenthesesBalance(str)){
             cout<<"Yes"<<endl;
